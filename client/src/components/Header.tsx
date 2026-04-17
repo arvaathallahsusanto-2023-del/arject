@@ -1,0 +1,1 @@
+import { Link } from 'wouter'; export const Header = () => <header className='p-4 bg-primary text-primary-foreground flex gap-4'><b>Arject</b><Link href='/'>Mirofish</Link><Link href='/posyandu'>Posyandu</Link></header>;

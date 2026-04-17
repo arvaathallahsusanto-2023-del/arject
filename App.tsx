@@ -12,6 +12,12 @@ import About from "@/pages/About";
 import Mirofish from "@/pages/Mirofish";
 import NotFound from "@/pages/not-found";
 
+import Dashboard as PosyanduDashboard from '@/pages/posyandu/Dashboard';
+import PatientList as PosyanduPatientList from '@/pages/posyandu/PatientList';
+import RegisterPatient as PosyanduRegister from '@/pages/posyandu/RegisterPatient';
+import InputRecord as PosyanduInputRecord from '@/pages/posyandu/InputRecord';
+import PatientDetail as PosyanduPatientDetail from '@/pages/posyandu/PatientDetail';
+
 function Router() {
   return (
     <div className="min-h-screen flex flex-col bg-background font-sans text-foreground selection:bg-primary/20">

@@ -1,7 +1,7 @@
 import type { Express } from "express";
 import type { Server } from "http";
-import { db } from "./db";
-import { posyanduPatients, posyanduRecords, insertPosyanduPatientSchema, insertPosyanduRecordSchema } from "./schema";
+import { db } from "./db.js";
+import { posyanduPatients, posyanduRecords, insertPosyanduPatientSchema, insertPosyanduRecordSchema } from "./schema.js";
 import { eq } from "drizzle-orm";
 /**
  * Semua routing API didefinisikan di sini
